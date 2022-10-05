@@ -6,6 +6,7 @@ import com.example.router.model.Report;
 
 import javax.jws.WebService;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 @WebService(endpointInterface = "com.example.router.RouterSenderService")
@@ -15,27 +16,33 @@ public class RouterSenderServiceImpl implements RouterSenderService {
     }
 
     public List<String> getAdmins() {
-        return null;
+        List<String> ans=new ArrayList<>();
+        return ans;
     }
 
     public List<String> getLecturers() {
-        return null;
+        List<String> ans=new ArrayList<>();
+        return ans;
     }
 
     public List<String> getThreeDaysNotTrackingUsers() {
-        return null;
+        List<String> ans=new ArrayList<>();
+        return ans;
     }
 
     public List<String> getOneDaysNotTrackingUsers() {
-        return null;
+        List<String> ans=new ArrayList<>();
+        return ans;
     }
 
     public List<Report> getReportsToday() {
-        return null;
+        List<Report> ans=new ArrayList<>();
+        return ans;
     }
 
     public List<String> getUserNamesByRole(String roleName) {
-        return null;
+        List<String> ans=new ArrayList<>();
+        return ans;
     }
 
     public void pdf(byte[] pdfBytes, List<String> lectorNickName) throws IOException {

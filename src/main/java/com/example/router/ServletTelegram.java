@@ -15,4 +15,9 @@ public class ServletTelegram implements ServletContextListener {
         TelegramBotApplication application = TelegramBotSingleton.getInstance();
         application.run();
     }
+
+    @Override
+    public void contextDestroyed(ServletContextEvent sce) {
+
+    }
 }
