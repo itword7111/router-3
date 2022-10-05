@@ -1,0 +1,28 @@
+package com.example.router;
+
+import com.exemple.generate.CommandWs;
+import com.exemple.generate.CommandWsImplService;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class ConnectionToCommandService {
+    private static URL url;
+
+    static {
+        try {
+            url = new URL("http://localhost:8081/wss/first?wsdl");
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private CommandWsImplService servicehe = new CommandWsImplService(url);
+    private final CommandWs commandServiceMethods = servicehe.getCommandWsImplPort();
+    ConnectionToCommandService(){
+
+    }
+    public CommandWs getInstance(){
+        return commandServiceMethods;
+    }
+}

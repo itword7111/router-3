@@ -1,0 +1,17 @@
+com\example\router\CommandWebClient.class
+com\example\router\TelegramBotApplication$TelegramBotApplicationBuilder.class
+com\example\router\model\Group.class
+com\example\router\TelegramBotSingleton.class
+com\exemple\generate\ObjectFactory.class
+com\exemple\generate\package-info.class
+com\example\router\TelegramBotApplication$1.class
+com\example\router\ConnectionToCommandService.class
+com\example\router\model\BotState.class
+com\example\router\model\User.class
+com\exemple\generate\CommandWs.class
+com\exemple\generate\CommandWsImplService.class
+com\exemple\generate\ListOfString.class
+com\example\router\ServletTelegram.class
+com\example\router\TelegramBotApplication$2.class
+com\exemple\generate\ListOfObject.class
+com\example\router\TelegramBotApplication.class
