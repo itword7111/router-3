@@ -11,7 +11,7 @@ public class ConnectionToCommandService {
 
     static {
         try {
-            url = new URL("http://localhost:8081/wss/first?wsdl");
+            url = new URL("http://localhost:8083/wss/first?wsdl");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }

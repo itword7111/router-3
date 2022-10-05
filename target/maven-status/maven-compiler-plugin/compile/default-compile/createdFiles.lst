@@ -1,4 +1,6 @@
+com\example\router\Publisher.class
 com\example\router\CommandWebClient.class
+com\example\router\RouterSenderServiceImpl.class
 com\example\router\TelegramBotApplication$TelegramBotApplicationBuilder.class
 com\example\router\model\Group.class
 com\example\router\TelegramBotSingleton.class
@@ -15,3 +17,5 @@ com\example\router\ServletTelegram.class
 com\example\router\TelegramBotApplication$2.class
 com\exemple\generate\ListOfObject.class
 com\example\router\TelegramBotApplication.class
+com\example\router\model\Report.class
+com\example\router\RouterSenderService.class
